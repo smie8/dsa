@@ -3,8 +3,8 @@ import algorithms.search.BinarySearch;
 import algorithms.sort.BubbleSort;
 import algorithms.sort.InsertionSort;
 
-import datastructures.arrays.HighArray;
-import datastructures.arrays.OrderedArray;
+import datastructures.array.HighArray;
+import datastructures.array.OrderedArray;
 import java.util.Arrays;
 
 public class Main {
