@@ -1,4 +1,4 @@
-package datastructures.array.stack;
+package datastructures.stack;
 
 /**
  * A stack is a data structure that follows the Last In First Out (LIFO) principle.

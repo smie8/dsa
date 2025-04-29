@@ -1,4 +1,4 @@
-package datastructures.array.stack;
+package datastructures.queue;
 
 /**
  * ArrayQueue is a simple implementation of a queue using an array.
