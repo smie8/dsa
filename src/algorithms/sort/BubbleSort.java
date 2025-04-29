@@ -1,5 +1,12 @@
 package algorithms.sort;
 
+/**
+ * Bubble-sort is a very basic and inefficient sorting algorithm.
+ * It works by repeatedly stepping through the list to be sorted, and moving the largest unsorted element to the end of the list (like a bubble).
+ *
+ * Time complexity: O(n^2) in the worst case.
+ * Space complexity: O(1).
+ */
 public class BubbleSort {
 
     public static int[] bubbleSort(int arr[]) {

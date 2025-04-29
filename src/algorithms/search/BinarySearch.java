@@ -1,5 +1,11 @@
 package algorithms.search;
 
+/**
+ * Binary search is an efficient algorithm for finding an item from a sorted list of items.
+ *
+ * Time complexity: O(log n), which essentially means halving the search space with each iteration.
+ * Space complexity: O(1), as it only requires a constant amount of space.
+ */
 public class BinarySearch {
 
     // Begins with a sorted array of elements

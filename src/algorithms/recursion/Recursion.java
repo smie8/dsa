@@ -1,5 +1,14 @@
 package algorithms.recursion;
 
+/**
+ * Recursion is a technique where method calls itself to solve a problem.
+ * For a recursion we always need a base case to stop the recursion. Otherwise, it will go into infinite loop.
+ *
+ * Usually recursion is not the best solution for a problem, but it is a good way to solve problems that can be broken down into smaller sub-problems.
+ *
+ * Time complexity: usually O(n) or O(n^2) depending on the problem.
+ * Space complexity: usually O(n) because of the call stack. If you need to save space, try to use iterative solution when applicable.
+ */
 public class Recursion {
 
     // Fibonacci is a sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1.

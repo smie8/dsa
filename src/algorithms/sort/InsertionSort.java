@@ -1,5 +1,12 @@
 package algorithms.sort;
 
+/**
+ * Insertion sort is simple but inefficient for large data sets.
+ * it takes each element from the input data and finds the location it belongs in the sorted list in a nested loop.
+ *
+ * Time complexity: O(n^2).
+ * Space complexity: O(1).
+ */
 public class InsertionSort {
 
     public static int[] insertionSort(int arr[]) {
