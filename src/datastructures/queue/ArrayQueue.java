@@ -15,14 +15,14 @@ package datastructures.queue;
 public class ArrayQueue {
 
     private int maxSize;
-    private int[] queue;
+    private int[] array;
     private int front;
     private int rear;
     private int size;
 
     public ArrayQueue(int maxSize) {
         this.maxSize = maxSize;
-        this.queue = new int[maxSize];
+        this.array = new int[maxSize];
         this.front = 0;
         this.rear = -1;
         this.size = 0;
@@ -33,12 +33,12 @@ public class ArrayQueue {
             rear = -1; // handle wraparound
         }
 
-        queue[++rear] = value; // increment rear and insert value
+        array[++rear] = value; // increment rear and insert value
         size++;
     }
 
-    public int dequeue() {
-        int temp = queue[front++]; // get value and increment front
+    public int remove() {
+        int temp = array[front++]; // get value and increment front
         if (front == maxSize) {
             front = 0; // handle wraparound
         }
@@ -48,7 +48,7 @@ public class ArrayQueue {
     }
 
     public int peek() {
-        return queue[front];
+        return array[front];
     }
 
     public boolean isEmpty() {

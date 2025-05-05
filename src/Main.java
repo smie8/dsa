@@ -5,13 +5,13 @@ import algorithms.sort.InsertionSort;
 
 import datastructures.array.HighArray;
 import datastructures.array.OrderedArray;
+import datastructures.queue.ArrayPriorityQueue;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        testHighArray();
-        testOrderedArray();
+        testPriorityQueue();
 
         // TODO:
         // - implement selection sort
@@ -126,5 +126,16 @@ public class Main {
         System.out.println("Insertion sort for [3, 4, 1, 9, 2, 5, 7, 8, 6]: " + Arrays.toString(InsertionSort.insertionSort(arrayOfInts3)));
 
         System.out.println();
+    }
+
+    public static void testPriorityQueue() {
+        ArrayPriorityQueue priorityQueue = new ArrayPriorityQueue(5);
+        priorityQueue.insert(5);
+        priorityQueue.insert(3);
+        priorityQueue.insert(11);
+        priorityQueue.insert(1);
+        priorityQueue.insert(22);
+
+        priorityQueue.display();
     }
 }
